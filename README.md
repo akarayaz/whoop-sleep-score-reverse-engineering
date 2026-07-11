@@ -42,12 +42,21 @@ meant to build toward.
   size would require ~144 low-efficiency nights per group; this dataset had only 10. The
   metric is very likely real but statistically under-powered here, not irrelevant.
 
-  ## Running it
+## Repo structure
 
-```bash
+whoop-sleep-score-reverse-engineering/
+├── README.md
+├── whoop_sleep_analysis.ipynb
+├── whoop_sleep_data.csv
+└── requirements.txt
+
+## Running it
+
 pip install -r requirements.txt
 jupyter notebook whoop_sleep_analysis.ipynb
-```
+
+All cell outputs (tables, plots) are already saved in the notebook, so it can also just be
+read directly on GitHub without running anything.
 
 All cell outputs (tables, plots) are already saved in the notebook, so it can also just be
 read directly on GitHub without running anything.
