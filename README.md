@@ -42,14 +42,6 @@ meant to build toward.
   size would require ~144 low-efficiency nights per group; this dataset had only 10. The
   metric is very likely real but statistically under-powered here, not irrelevant.
 
-## Repo structure
-
-whoop-sleep-score-reverse-engineering/
-├── README.md
-├── whoop_sleep_analysis.ipynb
-├── whoop_sleep_data.csv
-└── requirements.txt
-
 ## Running it
 
 pip install -r requirements.txt
