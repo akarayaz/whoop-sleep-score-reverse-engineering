@@ -50,9 +50,6 @@ jupyter notebook whoop_sleep_analysis.ipynb
 All cell outputs (tables, plots) are already saved in the notebook, so it can also just be
 read directly on GitHub without running anything.
 
-All cell outputs (tables, plots) are already saved in the notebook, so it can also just be
-read directly on GitHub without running anything.
-
 ## Limitations
 
 - n=1 (single subject, 91 nights) — findings describe this individual, not a general
