@@ -41,3 +41,26 @@ meant to build toward.
   Cohen's d = 0.332), and a power analysis showed that reliably detecting an effect that
   size would require ~144 low-efficiency nights per group; this dataset had only 10. The
   metric is very likely real but statistically under-powered here, not irrelevant.
+
+  ## Running it
+
+```bash
+pip install -r requirements.txt
+jupyter notebook whoop_sleep_analysis.ipynb
+```
+
+All cell outputs (tables, plots) are already saved in the notebook, so it can also just be
+read directly on GitHub without running anything.
+
+## Limitations
+
+- n=1 (single subject, 91 nights) — findings describe this individual, not a general
+  population.
+- Sleep Efficiency stayed in a narrow, high range (91–96%) for most of the tracking period,
+  limiting what could be detected — quantified directly via the power analysis above.
+- Residuals show mild non-normality, likely driven by a handful of high-Sleep-Stress
+  outlier nights.
+
+## Author
+
+**Alper Karayaz** — Data Science & Engineering, Politecnico di Torino
